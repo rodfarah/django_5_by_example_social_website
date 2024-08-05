@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# TODO Logout builtin view is not using AccountConfig at first place!
 INSTALLED_APPS = [
     "account.apps.AccountConfig",
     "django.contrib.admin",
