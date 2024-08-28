@@ -128,4 +128,9 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 LOGIN_REDIRECT_URL = "dashboard"
 LOGIN_URL = "login"
 LOGOUT_URL = "logout"
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+# This is the base URL used to serve the media files uploaded by users
+MEDIA_URL = "media/"
+# This is the local PATH where media files reside
+MEDIA_ROOT = BASE_DIR / "media"
